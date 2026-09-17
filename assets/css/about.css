@@ -106,6 +106,8 @@ footer{background:var(--petrol-900);color:rgba(255,255,255,.6);border-top:1px so
 @media(max-width:900px){
   section[id],header[id],div[id]{scroll-margin-top:92px}
   .navlinks{display:none}
+  .nav.menu-open .navlinks{display:flex;position:absolute;top:80px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;padding:8px 24px 16px;background:var(--petrol-900);border-top:1px solid var(--line-dark)}
+  .nav.menu-open .navlinks a{display:block;padding:10px 0}
   .burger{display:block}
   .brand .logo{height:46px}
   .nav .btn{padding:7px 13px;font-size:13.5px;margin-left:auto}

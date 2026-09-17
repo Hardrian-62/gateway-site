@@ -15,7 +15,7 @@
 <nav class="nav">
   <div class="wrap">
     <a class="brand" href="#" aria-label="Gateway Mercosur home"><img class="logo" src="assets/img/logo.svg" alt="Gateway Mercosur" width="1307" height="402"></a>
-    <ul class="navlinks">
+    <ul class="navlinks" id="mobile-menu">
       <li><a href="index.html" aria-current="page">Home</a></li>
       <li><a href="services.html">Services</a></li>
       <li><a href="about.html">About</a></li>
@@ -23,7 +23,7 @@
       <li><a href="faq.html">FAQ</a></li>
     </ul>
     <a class="btn btn-gold" href="#contact">Contact</a>
-    <button class="burger" aria-label="Menu">&#9776;</button>
+    <button class="burger" type="button" aria-label="Menu" aria-controls="mobile-menu" aria-expanded="false">&#9776;</button>
   </div>
 </nav>
 
@@ -251,5 +251,6 @@
   <div class="wrap">Gateway Mercosur &mdash; connecting markets, creating opportunities. Florian&oacute;polis, Brazil. &copy; 2026</div>
 </footer>
 
+<script src="assets/js/nav.js"></script>
 </body>
 </html>
