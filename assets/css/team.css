@@ -10,8 +10,8 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 section[id],header[id],div[id]{scroll-margin-top:132px}
-html{overflow-x:hidden}
-body{overflow-x:hidden;margin:0;font-family:var(--sans);color:var(--ink);background:#fff;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+html{overflow-x:clip}
+body{overflow-x:clip;margin:0;font-family:var(--sans);color:var(--ink);background:#fff;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
 h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.16;letter-spacing:-.01em;margin:0}
 p{margin:0 0 1.1rem}
 a{color:inherit}
