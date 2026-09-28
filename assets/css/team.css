@@ -98,6 +98,7 @@ footer{background:var(--petrol-900);color:rgba(255,255,255,.6);border-top:1px so
   .burger{display:block}
   .brand .logo{height:46px}
   .nav .btn{padding:7px 13px;font-size:13.5px;margin-left:auto}
+  .nav-cta-extra{display:none}
   .nav .wrap{gap:12px}
   .nav .wrap{height:80px}
   .phero{padding:48px 0 44px}
