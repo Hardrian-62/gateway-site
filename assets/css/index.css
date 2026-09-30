@@ -153,11 +153,13 @@ footer{background:var(--petrol-900);color:rgba(255,255,255,.6);border-top:1px so
   .nav-cta-extra{display:none}
   .nav .wrap{gap:12px}
   .nav .wrap{height:80px}
-  .hero{padding:56px 0 0}
+  .hero{padding:0}
   .heroband{margin-top:0}
   .heroband .wrap{grid-template-columns:repeat(2,1fr);gap:22px}
   .herobanner{display:none}
   .heromobile{display:block}
+  .heromobile-cta{gap:10px;padding:18px 24px;flex-wrap:nowrap}
+  .heromobile-cta .btn{padding:10px 14px;font-size:13.5px;white-space:nowrap}
   section{padding:64px 0}
   .svc,.reasons{grid-template-columns:1fr}
   .why-grid{grid-template-columns:1fr;gap:26px}
@@ -174,5 +176,9 @@ footer{background:var(--petrol-900);color:rgba(255,255,255,.6);border-top:1px so
   .band .copy{padding:44px 24px}
   .contact .split{grid-template-columns:1fr;gap:36px}
   form{grid-template-columns:1fr;padding:24px}
+}
+@media(max-width:380px){
+  .heromobile-cta{gap:8px;padding:16px 18px}
+  .heromobile-cta .btn{padding:9px 11px;font-size:12.5px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
