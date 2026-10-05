@@ -108,7 +108,7 @@ footer{background:var(--petrol-900);color:rgba(255,255,255,.6);border-top:1px so
   .phero .cols{margin-top:20px}
   .person{padding:56px 0}
   .person .grid,.person.alt .grid{grid-template-columns:1fr;gap:26px}
-  .person.alt .photo{order:0}
+  .person.alt .photo{order:-1}
   .photo{max-width:300px}
   .saying{font-size:19px;padding-left:16px;max-width:none}
   .cta{padding:64px 0}
