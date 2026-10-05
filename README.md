@@ -10,7 +10,9 @@ services.html       Services
 about.html          About (who we help / how we work / why work with us)
 team.html           Meet the team
 faq.html            Frequently asked questions
-assets/css/*.css    One stylesheet per page
+legal-notice.html   Legal notice (linked from every footer)
+privacy-policy.html Privacy policy (linked from every footer and the contact form)
+assets/css/*.css    One stylesheet per page (legal.css is shared by both legal pages)
 assets/img/*        Photos, graphics, logo (SVG)
 ```
 
@@ -33,9 +35,11 @@ extension, right-click `index.html` and choose *Open with Live Server*.
 - **Two images are served per breakpoint** using `<picture>`: the About page's
   "who we help" graphic and the Florianópolis aerial. Desktop and mobile load
   different files.
-- **Placeholders still to replace:** the WhatsApp number on the home page
-  contact block (`+00 000 000 000`), and the `mailto:` addresses
-  (`hello@gatewaymercosur.com`) if that isn't the real inbox.
+- **Placeholder still to replace:** the `mailto:` addresses
+  (`hello@gatewaymercosur.com`), pending confirmation of the real inbox.
+- **WordPress:** the live site runs on WordPress. `wordpress/*.wp.html` hold
+  the Legal Notice and Privacy Policy as block markup, ready to paste into the
+  block editor's Code editor (or an Elementor Text Editor widget's Text tab).
 - **The contact form does not submit.** It has `onsubmit="return false"`.
   Wire it to a form handler before launch.
 - **Copy check outstanding:** a few phrases still imply an existing client
