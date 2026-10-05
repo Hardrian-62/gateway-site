@@ -141,6 +141,12 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);outline-of
 select option{color:#000}
 
 footer{background:var(--petrol-900);color:rgba(255,255,255,.6);border-top:1px solid var(--line-dark);padding:40px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px 28px;flex-wrap:wrap}
+footer .footer-links{display:flex;gap:22px;flex-wrap:wrap}
+footer a{color:rgba(255,255,255,.78);text-decoration:none}
+footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.form-note{font-size:13.5px;color:rgba(255,255,255,.65);margin:0}
+.form-note a{color:var(--gold-soft)}
 
 @media(max-width:900px){
   section[id],header[id],div[id]{scroll-margin-top:92px}

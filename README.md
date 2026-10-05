@@ -10,7 +10,9 @@ services.html       Services
 about.html          About (who we help / how we work / why work with us)
 team.html           Meet the team
 faq.html            Frequently asked questions
-assets/css/*.css    One stylesheet per page
+legal-notice.html   Legal notice (linked from every footer)
+privacy-policy.html Privacy policy (linked from every footer and the contact form)
+assets/css/*.css    One stylesheet per page (legal.css is shared by both legal pages)
 assets/img/*        Photos, graphics, logo (SVG)
 ```
 
