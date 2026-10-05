@@ -35,8 +35,9 @@ extension, right-click `index.html` and choose *Open with Live Server*.
 - **Two images are served per breakpoint** using `<picture>`: the About page's
   "who we help" graphic and the Florianópolis aerial. Desktop and mobile load
   different files.
-- **Placeholder still to replace:** the `mailto:` addresses
-  (`hello@gatewaymercosur.com`), pending confirmation of the real inbox.
+- **Contact details:** site contact is `hello@gatewaymercosur.com` and
+  WhatsApp +55 48 99160-4633. The legal pages deliberately use
+  `andre@amicia.agency` as the legal/privacy contact.
 - **WordPress:** the live site runs on WordPress. `wordpress/*.wp.html` hold
   the Legal Notice and Privacy Policy as block markup, ready to paste into the
   block editor's Code editor (or an Elementor Text Editor widget's Text tab).
